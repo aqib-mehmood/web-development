@@ -1,0 +1,83 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+footer{
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    background:#1B1B1B;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.information ul{
+    color: white;
+    list-style-type: none;
+
+}
+.information ul li{
+    padding-bottom: 10px;
+}
+.contact-info ul{
+    color: white;
+    list-style-type: none;
+}
+.contact-info ul li{
+    padding-bottom: 5px;
+}
+#trial{
+    width: 110px;
+    color:#1B1B1B;
+    padding: 7px 10px;
+    background: white;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 10px;
+}
+#login{
+    width: 110px;
+    color:white;
+    padding: 7px 10px;
+    background:#1B1B1B;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+@media screen and (max-width:700px)
+{
+    .container{
+        text-align: center;
+    }
+    .Logo{
+        width: 100%;
+        /* padding-bottom: 30px; */
+    }
+    .row{
+        display: flex;
+    }
+    .Logo{
+        order: 2;
+        }
+     .btns{
+            order: 1;
+        }
+    .information{
+            order: 0;
+        }
+    .contact-info{
+            order: 3;
+        }
+        #trial{
+            width: 150px;
+            
+        }
+        #login{
+            width: 150px;
+           
+        }
+   
+}

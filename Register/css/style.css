@@ -1,0 +1,197 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #212121;
+   
+
+}
+.bg-light{
+    background: transparent !important;
+}
+#logo img{
+    width: 90.65px;
+height: 95.32px;
+}
+.navbar-toggler-icon{
+    stroke: white;
+}
+.nav-link{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+color: white !important;
+}
+.btn-login{
+    width: 175px;
+    height: 60px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+
+}
+.Circle{
+background: url('/img/cricles.png');
+background-repeat: no-repeat;
+width: 100%;
+height: 600px;
+background-size: 100% 100%;
+
+margin-top: -100px;
+margin-right: -600px;
+}
+#Registration-form form{
+    margin: 100px 0;
+    width: 485px;
+    height: 781px;
+    background: linear-gradient(144.8deg, rgba(10, 9, 9, 0.5) 0%, rgba(56, 56, 56, 0.5) 100%), #212121;
+    box-shadow: -15px -15px 22px rgba(44, 44, 44, 0.5), 15px 15px 22px rgba(28, 26, 26, 0.5);
+    border-radius: 15px;
+    color: white;
+    padding: 30px;
+    
+}
+
+#Registration-form h1{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 70px;
+line-height: 72px;
+}
+#Registration-form label{
+
+margin: 20px 0;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 26px;
+    
+}
+
+#Registration-form input{
+
+    width: 100%;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;  
+    background: transparent;   
+    color: white;
+}
+#Registration-form button{
+
+    width: 90%;
+    height: 60px;
+    background: #8F8F8F;
+    border-radius: 10px;  
+    outline: none; 
+    cursor: pointer;  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.newaccount p:nth-child(1){
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.newaccount p:nth-child(2){
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 26px;
+cursor: pointer;
+}
+footer{
+    padding: 20px 0;
+    background: #1b1b1b;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li{
+    color: white;
+}
+#footer-inline li{
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#ftr-btn{
+    display: none;
+    /* margin-top: -100px; */
+}
+
+@media screen and (max-width:980px)
+{
+    .navbar-toggler-icon{
+        border: white;
+    }
+    #Registration-form form{
+        height: 781px;
+        width: 90%;
+        margin: 100px auto;
+
+        background: linear-gradient(144.8deg, rgba(10, 9, 9, 0.5) 0%, rgba(56, 56, 56, 0.5) 100%), #212121;
+        box-shadow: -15px -15px 22px rgba(44, 44, 44, 0.5), 15px 15px 22px rgba(28, 26, 26, 0.5);
+        border-radius: 15px;
+        color: white;
+        padding: 30px;
+        
+    }
+    footer{
+        text-align: center;
+    }
+    #footer-inline{
+        padding: 40px 0;
+    }
+    #footer-inline li{
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding-top:10px ;
+    }
+    #footer-inline ul:after{
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding-top:10px ;
+    }
+    .A1{
+        order: 1;
+        margin: 40px 0;
+        text-align: center;
+    }
+    .A2{
+        order: 0;
+        margin: 40px 0;
+    }
+    .A3{
+        order: 2;
+        margin: 40px 0;
+    }
+    #ftr-btn{
+        display: block;
+        margin: 0 auto;
+     
+    }
+    .Circle{
+        display: none;
+    }
+}
